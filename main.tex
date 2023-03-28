@@ -1,0 +1,121 @@
+\documentclass[t]{beamer}
+% ----------------------------------------------------------------------
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amstext}
+\usepackage{biblatex}
+\usepackage{url}
+\urlstyle{tt}
+
+\usepackage{listings}
+\lstset{basicstyle=\ttfamily,escapechar=\%,escapeinside={\#(}{\#)}}
+
+\usepackage{xcolor}
+\colorlet{comment}{white!60!black}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows,chains,positioning,automata,decorations,shapes,calc,matrix,fit,backgrounds} % CHECK!!
+% \usepackage{pgfpages}
+\usepackage{tikz-uml} % tsolving
+
+\usepackage{chessboard}
+\usepackage{weak-constraint-symbol}
+
+\usepackage[ruled,vlined]{algorithm2e}
+\SetAlFnt{\small}
+\setlength{\algomargin}{2ex}
+
+\newcommand{\sigmaAUX}{\rho} % FIX
+
+\usepackage[normalem]{ulem}
+
+\addbibresource{krr.bib}   % {https://github.com/krr-up/bibliography/blob/master/krr.bib}
+\addbibresource{procs.bib} % {https://github.com/krr-up/bibliography/blob/master/procs.bib}
+
+% ----------------------------------------------------------------------
+\input{macros/syntax}
+\input{macros/semantics}
+\input{macros/nogoods}
+\input{macros/systems}
+\input{macros/grounding}
+\input{macros/operators}
+\input{macros/tableau} % REVISE
+\input{macros/listings} % DISTRIBUTE
+\input{macros/modules}
+\input{macros/ht}
+\input{pifont-macros}
+\input{algorithm-keywords}
+%
+\usepackage{beamer-patch}
+\input{beamer-config}
+% ----------------------------------------------------------------------
+%\includeonlylecture{%
+%organization%
+%motivation%
+%introduction%
+%modeling%
+%language%
+%extensions%
+%grounding%
+%computation%
+%acharacterization%
+%ocharacterization%
+%pcharacterization%
+%solving%
+%
+%encoding%
+%meta%
+%controlling%
+%msolving%
+%tsolving%
+%hsolving%
+%systems%
+%preferences%
+%,goodbye,bibliography}
+% ----------------------------------------------------------------------
+\begin{document}
+% ----------------------------------------------------------------------
+\input{frontpage}
+% ------------------------------
+\pgfdeclareimage[height=0.5cm]{potasscologo}{potassco_logo_lightblue}
+\logo{\pgfuseimage{potasscologo}}
+% ----------------------------------------------------------------------
+\input{./organization}
+% ------------------------------
+\input{./motivation}
+\input{./introduction}
+\input{./modeling}
+\input{./language}
+% ------------------------------
+\input{./ezasp}
+% ------------------------------
+% \input{./extensions}
+% \input{./grounding}
+% \input{./computation}
+% \input{./acharacterization}
+% \input{./ocharacterization}
+% \input{./pcharacterization}
+% \input{./solving}
+% ------------------------------
+% \input{./encoding}
+% \input{./meta}
+% \input{./controlling}
+% \input{./msolving}
+% \input{./tsolving}
+% \input{./hsolving}
+% ------------------------------
+% \input{./dynamics}
+% \input{./hybrids}
+% \input{./systems}
+% ------------------------------
+\input{./goodbye}
+% ------------------------------
+\input{bibliography}
+% ------------------------------
+\end{document}
+% ----------------------------------------------------------------------
+%
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
