@@ -1,0 +1,30 @@
+[submodule "include/macros"]
+	path = include/macros
+	url = git@github.com:krr-up/asp-macros.git
+[submodule "include/bibliography"]
+	path = include/bibliography
+	url = git@github.com:krr-up/bibliography.git
+[submodule "include/logos"]
+	path = include/logos
+	url = git@github.com:krr-up/logos.git
+[submodule "include/organization"]
+	path = include/organization
+	url = ../organization
+[submodule "include/motivation"]
+	path = include/motivation
+	url = ../motivation
+[submodule "include/introduction"]
+	path = include/introduction
+	url = ../introduction
+[submodule "include/modeling"]
+	path = include/modeling
+	url = ../modeling
+[submodule "include/language"]
+	path = include/language
+	url = ../language
+[submodule "include/systems"]
+	path = include/systems
+	url = ../systems
+[submodule "include/ezasp"]
+	path = include/ezasp
+	url = ../ezasp
