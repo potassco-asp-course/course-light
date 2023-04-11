@@ -28,3 +28,6 @@
 [submodule "include/ezasp"]
 	path = include/ezasp
 	url = ../ezasp
+[submodule "include/encoding"]
+	path = include/encoding
+	url = ../encoding
