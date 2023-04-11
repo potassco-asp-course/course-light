@@ -49,12 +49,13 @@
 \usepackage{beamer-patch}
 \input{beamer-config}
 % ----------------------------------------------------------------------
-%\includeonlylecture{%
+\includeonlylecture{%
 %organization%
 %motivation%
 %introduction%
 %modeling%
 %language%
+ezasp%
 %extensions%
 %grounding%
 %computation%
@@ -71,7 +72,7 @@
 %hsolving%
 %systems%
 %preferences%
-%,goodbye,bibliography}
+,goodbye,bibliography}
 % ----------------------------------------------------------------------
 \begin{document}
 % ----------------------------------------------------------------------
@@ -80,6 +81,8 @@
 \pgfdeclareimage[height=0.5cm]{potasscologo}{potassco_logo_lightblue}
 \logo{\pgfuseimage{potasscologo}}
 % ----------------------------------------------------------------------
+\input{./ezasp}
+\end{document}
 \input{./organization}
 % ------------------------------
 \input{./motivation}
@@ -87,7 +90,7 @@
 \input{./modeling}
 \input{./language}
 % ------------------------------
-% \input{./ezasp}
+\input{./ezasp}
 % ------------------------------
 % \input{./extensions}
 % \input{./grounding}
