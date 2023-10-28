@@ -31,3 +31,6 @@
 [submodule "include/encoding"]
 	path = include/encoding
 	url = ../encoding
+[submodule "include/meta-encoding"]
+	path = include/meta-encoding
+	url = ../meta-encoding
