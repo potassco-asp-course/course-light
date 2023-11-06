@@ -9,43 +9,43 @@
 	url = ../../krr-up/logos
 [submodule "include/organization"]
 	path = include/organization
-	url = ../organization
+	url = ../../potassco-asp-course/organization
 [submodule "include/motivation"]
 	path = include/motivation
-	url = ../motivation
+	url = ../../potassco-asp-course/motivation
 [submodule "include/introduction"]
 	path = include/introduction
-	url = ../introduction
+	url = ../../potassco-asp-course/introduction
 [submodule "include/modeling"]
 	path = include/modeling
-	url = ../modeling
+	url = ../../potassco-asp-course/modeling
 [submodule "include/language"]
 	path = include/language
-	url = ../language
+	url = ../../potassco-asp-course/language
 [submodule "include/systems"]
 	path = include/systems
-	url = ../systems
+	url = ../../potassco-asp-course/systems
 [submodule "include/ezasp"]
 	path = include/ezasp
-	url = ../ezasp
+	url = ../../potassco-asp-course/ezasp
 [submodule "include/encoding"]
 	path = include/encoding
-	url = ../encoding
+	url = ../../potassco-asp-course/encoding
 [submodule "include/meta-encoding"]
 	path = include/meta-encoding
-	url = ../meta-encoding
+	url = ../../potassco-asp-course/meta-encoding
 [submodule "include/controlling"]
 	path = include/controlling
-	url = ../controlling
+	url = ../../potassco-asp-course/controlling
 [submodule "include/multi-shot-solving"]
 	path = include/multi-shot-solving
-	url = ../multi-shot-solving
+	url = ../../potassco-asp-course/multi-shot-solving
 [submodule "include/theory-solving"]
 	path = include/theory-solving
-	url = ../theory-solving
+	url = ../../potassco-asp-course/theory-solving
 [submodule "include/heuristic-driven-solving"]
 	path = include/heuristic-driven-solving
-	url = ../heuristic-driven-solving
+	url = ../../potassco-asp-course/heuristic-driven-solving
 [submodule "include/solving"]
 	path = include/solving
-	url = ../solving
+	url = ../../potassco-asp-course/solving
