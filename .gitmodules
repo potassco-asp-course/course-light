@@ -1,12 +1,12 @@
 [submodule "include/macros"]
 	path = include/macros
-	url = git@github.com:krr-up/asp-macros.git
+	url = ../../krr-up/asp-macros
 [submodule "include/bibliography"]
 	path = include/bibliography
-	url = git@github.com:krr-up/bibliography.git
+	url = ../../krr-up/bibliography
 [submodule "include/logos"]
 	path = include/logos
-	url = git@github.com:krr-up/logos.git
+	url = ../../krr-up/logos
 [submodule "include/organization"]
 	path = include/organization
 	url = ../organization
