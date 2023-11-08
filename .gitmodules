@@ -1,33 +1,33 @@
 [submodule "include/macros"]
 	path = include/macros
-	url = git@github.com:krr-up/asp-macros.git
+	url = ../../krr-up/asp-macros.git
 [submodule "include/bibliography"]
 	path = include/bibliography
-	url = git@github.com:krr-up/bibliography.git
+	url = ../../krr-up/bibliography.git
 [submodule "include/logos"]
 	path = include/logos
-	url = git@github.com:krr-up/logos.git
+	url = ../../krr-up/logos.git
 [submodule "include/organization"]
 	path = include/organization
-	url = ../organization
+	url = ../../potassco-asp-course/organization
 [submodule "include/motivation"]
 	path = include/motivation
-	url = ../motivation
+	url = ../../potassco-asp-course/motivation
 [submodule "include/introduction"]
 	path = include/introduction
-	url = ../introduction
+	url = ../../potassco-asp-course/introduction
 [submodule "include/modeling"]
 	path = include/modeling
-	url = ../modeling
+	url = ../../potassco-asp-course/modeling
 [submodule "include/language"]
 	path = include/language
-	url = ../language
+	url = ../../potassco-asp-course/language
 [submodule "include/systems"]
 	path = include/systems
-	url = ../systems
+	url = ../../potassco-asp-course/systems
 [submodule "include/ezasp"]
 	path = include/ezasp
-	url = ../ezasp
+	url = ../../potassco-asp-course/ezasp
 [submodule "include/encoding"]
 	path = include/encoding
-	url = ../encoding
+	url = ../../potassco-asp-course/encoding
