@@ -49,3 +49,9 @@
 [submodule "include/solving"]
 	path = include/solving
 	url = ../../potassco-asp-course/solving
+[submodule "include/planning"]
+	path = include/planning
+	url = ../../potassco-asp-course/planning
+[submodule "include/configuration"]
+	path = include/configuration
+	url = ../../potassco-asp-course/configuration
