@@ -55,3 +55,6 @@
 [submodule "include/configuration"]
 	path = include/configuration
 	url = ../../potassco-asp-course/configuration
+[submodule "include/preferences"]
+	path = include/preferences
+	url = ../../potassco-asp-course/preferences
