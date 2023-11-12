@@ -1,12 +1,12 @@
 [submodule "include/macros"]
 	path = include/macros
-	url = ../../krr-up/asp-macros.git
+	url = ../../krr-up/asp-macros
 [submodule "include/bibliography"]
 	path = include/bibliography
-	url = ../../krr-up/bibliography.git
+	url = ../../krr-up/bibliography
 [submodule "include/logos"]
 	path = include/logos
-	url = ../../krr-up/logos.git
+	url = ../../krr-up/logos
 [submodule "include/organization"]
 	path = include/organization
 	url = ../../potassco-asp-course/organization
@@ -31,3 +31,30 @@
 [submodule "include/encoding"]
 	path = include/encoding
 	url = ../../potassco-asp-course/encoding
+[submodule "include/meta-encoding"]
+	path = include/meta-encoding
+	url = ../../potassco-asp-course/meta-encoding
+[submodule "include/controlling"]
+	path = include/controlling
+	url = ../../potassco-asp-course/controlling
+[submodule "include/multi-shot-solving"]
+	path = include/multi-shot-solving
+	url = ../../potassco-asp-course/multi-shot-solving
+[submodule "include/theory-solving"]
+	path = include/theory-solving
+	url = ../../potassco-asp-course/theory-solving
+[submodule "include/heuristic-driven-solving"]
+	path = include/heuristic-driven-solving
+	url = ../../potassco-asp-course/heuristic-driven-solving
+[submodule "include/solving"]
+	path = include/solving
+	url = ../../potassco-asp-course/solving
+[submodule "include/planning"]
+	path = include/planning
+	url = ../../potassco-asp-course/planning
+[submodule "include/configuration"]
+	path = include/configuration
+	url = ../../potassco-asp-course/configuration
+[submodule "include/preferences"]
+	path = include/preferences
+	url = ../../potassco-asp-course/preferences

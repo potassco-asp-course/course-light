@@ -31,6 +31,7 @@
 
 \addbibresource{krr.bib}   % {https://github.com/krr-up/bibliography/blob/master/krr.bib}
 \addbibresource{procs.bib} % {https://github.com/krr-up/bibliography/blob/master/procs.bib}
+\addbibresource{local.bib}
 
 % ----------------------------------------------------------------------
 \input{macros/syntax}
@@ -49,7 +50,7 @@
 \usepackage{beamer-patch}
 \input{beamer-config}
 % ----------------------------------------------------------------------
-%\includeonlylecture{%
+\includeonlylecture{%
 %organization%
 %motivation%
 %introduction%
@@ -70,9 +71,11 @@
 %msolving%
 %tsolving%
 %hsolving%
-%systems%
+systems%
+%planning%
+%configuration%
 %preferences%
-%,goodbye,bibliography}
+,goodbye,bibliography}
 % ----------------------------------------------------------------------
 \begin{document}
 % ----------------------------------------------------------------------
@@ -99,15 +102,20 @@
 % \input{./solving}
 % ------------------------------
 \input{./encoding}
-% \input{./meta}
-% \input{./controlling}
-% \input{./msolving}
-% \input{./tsolving}
-% \input{./hsolving}
+\input{./meta}
+\input{./controlling}
+\input{./msolving}
+\input{./tsolving}
+\input{./hsolving}
 % ------------------------------
 % \input{./dynamics}
 % \input{./hybrids}
-% \input{./systems}
+% \input{./preferences}
+% ------------------------------
+\input{./systems}
+% ------------------------------
+% \input{./planning}
+% \input{./configuration}
 % ------------------------------
 \input{./goodbye}
 % ------------------------------
